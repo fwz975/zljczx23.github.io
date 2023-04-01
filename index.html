@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <title>首页</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left">
+                <img src="./images/nav-btn.gif" alt="" align="left" width="25px">
+                <h1>拓扑宇宙艺术馆</h1>
+            </div>
+            <div class="right">
+                <a href="./index.html" style="color: black;">
+                    <h1>首页</h1>
+                </a>
+                <img src="./images/fdj.png" width="25px" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap" id="wrap">
+        <ul class="content"></ul>
+        <a href="javascript:;" class="prev">&#60;</a>
+        <a href="javascript:;" class="next">&#62;</a>
+    </div>
+
+    <div class="container2">
+        <div class="content">
+            <h1>进入拓扑艺术馆</h1>
+            <br><br><br><br>
+            <h1>一起探索拓扑宇宙</h1>
+            <br><br><br>
+            <div class="box1">
+                <div class="one">
+                    <div class="left">
+                        <img src="./images/(2).png" alt="" height="300px">
+                    </div>
+                    <div class="right">
+                        <a href="./视错觉艺术.html">
+                            <h1>视错觉艺术</h1>
+                        </a>
+                        <p>视错觉，是指通过几何排列、视觉成像规律等手段，制作有“视觉欺骗”成分的图像进行眼球欺骗，引起的视觉上的错觉，达到艺术或者类似魔术般的效果。</p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+
+
+            <div class="box2">
+                <div class="one two">
+                    <div class="left">
+                        <a href="./埃舍尔的拓扑世界.html">
+                            <h1>埃舍尔的拓扑世界</h1>
+                        </a>
+                        <p>莫里茨·科内利斯·埃舍尔,荷兰著名版画艺术家,他的版画作品常使用到几何的概念，对于“错视”艺术极为拿手。埃舍尔的版画技术卓越，足以充分善用不同技巧的优点。他以明显的黑、白色对比与精准的线条刻划，树立了与众不同的版画风格；他也创造演绎出复杂奇幻的变形结构，颠覆了自然的规律。
+                        </p>
+                    </div>
+                    <div class="right">
+                        <img src="./images/(3).jpg" alt="" height="300px">
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="box3">
+                <div class="one three">
+                    <div class="left">
+                        <img src="./images/(1).png" alt="" height="300px">
+                    </div>
+                    <div class="right">
+                        <a href="./拓扑学.html">
+                            <h1>拓扑学</h1>
+                        </a>
+                        <p>拓扑学意为位相几何学，是一门研究拓扑空间的学科，主要研究空间内，在连续变化下维持不变的性质。 它只考虑物体间的位置关系而不考虑它们的形状和大小。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+    </div>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide text-t1" ><img src="images/lbt1.gif"   width="200px" height="200px" alt=""></div>
+            <div class="swiper-slide text-t2" ><img src="images/lbt2.gif"   width="200px" height="200px" alt=""></div>
+            <div class="swiper-slide text-t3" ><img src="images/lbt3.gif"   width="200px" height="200px" alt=""></div>
+            <div class="swiper-slide text-t4" ><img src="images/lbt4.gif"   width="200px" height="200px" alt=""></div>
+            <div class="swiper-slide text-t5" ><img src="images/lbt5.gif"   width="200px" height="200px" alt=""></div>
+            <div class="swiper-slide text-t6" ><img src="./images/lbt6.png" width="200px" height="200px" alt=""></div>
+        </div>
+    </div>
+    <br><br>
+    <script src="./js/swiper.min.js"></script>
+
+    <script>
+        var mySwiper = new Swiper('.swiper', {
+            slidesPerView: 3,
+            loop: true, // 循环模式选项
+            speed: 3000, //图片切换速度
+            autoplay: true,  //图片自动切换
+            grabCursor: true,  //鼠标覆盖Swiper时指针会变成手掌形状，拖动时指针会变成抓手形状
+        })        
+    </script>
+
+
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>

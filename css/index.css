@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.container2 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 27px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.header .left {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .right {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1{
+  font-size: 25px;
+}
+.wrap {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  margin: 100px auto;
+}
+.wrap .content {
+  position: absolute;
+  width: 1200px;
+  height: 360px;
+}
+.wrap .content li {
+  position: absolute;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.wrap a {
+  position: absolute;
+  display: none;
+  z-index: 2;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  font: 36px/60px "宋体";
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #ff6400;
+}
+.wrap a:hover {
+  background: #ff6400;
+}
+.wrap .prev {
+  left: 30px;
+}
+.wrap .next {
+  right: 30px;
+}
+.box1{
+  background-color: rgb(237, 255, 145);
+  width: 100%;
+}
+.box2{
+  width: 100%;
+  background-color: #000000;
+}
+.box3{
+  width: 100%;
+  background-color: rgb(254, 225, 145);
+}
+.content h1{
+  text-align: center;
+  font-size: 32px;
+  margin-top: -50px;
+}
+
+.content .one{
+  margin: 0 auto;
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  color: #fff;
+}
+.content .one h1{
+  margin-top: 0px;
+  font-size: 28px;
+  text-align: left;
+  padding: 20px 50px;
+}
+.content .one p{
+  width: 600px;
+  font-size: 18px;
+  text-indent: 2.5em;
+  line-height: 40px;
+}
+.content .two{
+  margin: 0 auto;
+  width: 1100px;
+}
+.content .three{
+  margin: 0 auto;
+  width: 1100px;
+}
+.footer{
+  width: 1000px;
+}
+.swiper {
+  position: relative;
+  width: 1100px;
+  height: 280px;
+}
+.text-t1::before{
+  content: "艾姆斯窗 ";
+  position: absolute;
+  top: 200px;
+  left: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 540;
+  color: #070707;
+}
+.text-t2::before{
+  content: "反物理装置 ";
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 540;
+  color: #070707;
+}
+.text-t3::before{
+  content: "克莱因瓶 ";
+  position: absolute;
+  top: 200px;
+  left: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 540;
+  color: #070707;
+}
+.text-t4::before{
+  content: "莫比乌斯环 ";
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 540;
+  color: #070707;
+}
+.text-t5::before{
+  content: "瀑布 ";
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 540;
+  color: #070707;
+}
+.text-t6::before{
+  content: "视错觉恐龙 ";
+  position: absolute;
+  top: 200px;
+  left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 540;
+  color: #070707;
+}

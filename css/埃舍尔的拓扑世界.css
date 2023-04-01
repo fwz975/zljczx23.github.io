@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 27px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -50px;
+}
+
+.header .left {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .right {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-size: 25px;
+}
+
+.banner {
+    position: relative;
+    top: 80px;
+    height: 950px;
+    margin-bottom: 280px;
+}
+
+.banner video {
+    position: absolute;
+    width: 100%;
+}
+
+.banner video::-webkit-media-controls-timeline {
+    display: none;
+}
+
+.banner video::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+
+.banner video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+
+.banner video::-webkit-media-controls-current-time-display {
+    display: none;
+}
+
+.content {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 160px;
+}
+
+.content .box1 {
+    width: 100%;
+    height: 450px;
+    background-color: gray;
+}
+
+.content .box1 p {
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 38px;
+    width: 1100px;
+    padding: 20px;
+    padding-top: 65px;
+    line-height: 30px;
+    text-indent: 2em;
+
+}
+
+.content .box2 {
+    width: 100%;
+    height: 1560px;
+    background-color: rgb(0, 0, 0);
+}
+
+.content .box2 .img {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.content .box2 p {
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 42px;
+    width: 700px;
+    padding: 20px;
+    padding-top: 65px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.content .square {
+    padding: 35px 0;
+    text-align: center;
+}
+
+.content .box3 {
+    height: 1395px;
+    background-color: rgb(206, 206, 206);
+}
+
+
+hr {
+    border: none;
+    padding-bottom: 10px;
+    border-top: 3px solid rgb(0, 0, 0);
+    width: 100%;
+}
+
+.swiper {
+    position: relative;
+    width: 1100px;
+    height: 280px;
+}
+
+.text-t1::before {
+    content: "艾姆斯窗 ";
+    position: absolute;
+    top: 200px;
+    left: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 540;
+    color: #070707;
+}
+
+.text-t2::before {
+    content: "反物理装置 ";
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 540;
+    color: #070707;
+}
+
+.text-t3::before {
+    content: "克莱因瓶 ";
+    position: absolute;
+    top: 200px;
+    left: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 540;
+    color: #070707;
+}
+
+.text-t4::before {
+    content: "莫比乌斯环 ";
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 540;
+    color: #070707;
+}
+
+.text-t5::before {
+    content: "瀑布 ";
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 540;
+    color: #070707;
+}
+
+.text-t6::before {
+    content: "视错觉恐龙 ";
+    position: absolute;
+    top: 200px;
+    left: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 540;
+    color: #070707;
+}
